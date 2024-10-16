@@ -9,14 +9,14 @@ getSaldo: retorna o saldo.
 
 ## Atividade 02
 Implementar um sistema de gerenciamento de veículos que utilize os conceitos de herança e polimorfismo. 
-- Classe Base
-    Crie uma classe chamada Veiculo com os seguintes atributos e métodos:
-    Atributos: marca (String): A marca do veículo; modelo (String): O modelo do veículo.
-    Métodos: acelerar(): Um método que imprime "O veículo está acelerando."
-- Classes DerivadasCrie duas classes que herdam de Veiculo:
-    Carro: Uma classe que representa um carro. Adicione o atributo quantidadeDePortas (int). Sobrescreva o método  acelerar() para imprimir "O carro está acelerando."
-    Moto: Uma classe que representa uma moto. Adicione o atributo temCarenagem (boolean). Sobrescreva o método acelerar() para imprimir "A moto está acelerando.
-- Classe de Teste
-    Crie uma classe chamada Main com um método main. Neste método, faça o seguinte:
-    Crie uma instância de Carro e uma instância de Moto.
-    Use polimorfismo para armazenar esses objetos em um array do tipo Veiculo[].
+Classe Base
+  Crie uma classe chamada Veiculo com os seguintes atributos e métodos:
+  Atributos: marca (String): A marca do veículo; modelo (String): O modelo do veículo.
+  Métodos: acelerar(): Um método que imprime "O veículo está acelerando."
+Classes DerivadasCrie duas classes que herdam de Veiculo:
+  Carro: Uma classe que representa um carro. Adicione o atributo quantidadeDePortas (int). Sobrescreva o método  acelerar() para imprimir "O carro está acelerando."
+  Moto: Uma classe que representa uma moto. Adicione o atributo temCarenagem (boolean). Sobrescreva o método acelerar() para imprimir "A moto está acelerando.
+Classe de Teste
+  Crie uma classe chamada Main com um método main. Neste método, faça o seguinte:
+  Crie uma instância de Carro e uma instância de Moto.
+  Use polimorfismo para armazenar esses objetos em um array do tipo Veiculo[].
